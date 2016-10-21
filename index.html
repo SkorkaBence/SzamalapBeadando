@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>Újrahasznosítható Űrtechnológiák</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="img/icon.png">
+		
+		<link rel="stylesheet" type="text/css" href="https://csfcloud.com/csf/ProgramAPI/bin/CSF.css">
+		<script type="text/javascript" src="https://csfcloud.com/csf/ProgramAPI/bin/jquery.js"></script>
+		<script type="text/javascript" src="https://csfcloud.com/csf/ProgramAPI/bin/CSF.js"></script>
+        
+        <script type="text/javascript" src="https://skorkabence.web.elte.hu/api/caesar.js" id="caesar-script" c-id="57dc6de311648"></script>
+	</head>
+	<body>
+		<div class="background" id="background"></div>
+		<script>
+			csfapi.setDeveloperKey("qtnh30nerq83lb6w5gr3d3g8wdr3y1eelsmej0j0");
+			csfapi.media.backgroundVideo({
+				id: "CSFImage_tapes6slamhiyrv", // CSFImage_tapes6slamhiyrv CSFImage_iy7rle4ybecitk3
+				parentElement: document.getElementById("background")
+			});
+			$(function() {
+				$( ".success" ).each(function( index ) {
+					$( this ).html("Sikerült");
+				});
+				$( ".failure" ).each(function( index ) {
+					$( this ).html("Nem sikerült");
+				});
+			});
+		</script>
+		<div class="container">
+			<h1>Újrahasznosítható Űrtechnológiák</h1>
+			<h2>Miért jó?</h2>
+			Az űrbe jutás rendkívül drága. De az ár nagyrészét nem az üzemanyag teszi ki, hanem a rakéta leváló darabjai, mert miután kifogyott belőlük az üzemanyag, leválnak, és végleg elvesznek.<br>
+			Egy repülőgép körülbelül ugyanannyiba kerül, mint a <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> rakéta, de egy lágitársaságnak nem kell minden utazás után kidobnia és újragyártania a repülőit, de az űrben minden rakéta csak egyszer repül.<br>
+			Egy űrsikló már többször használatos, de az üzemanyagtankjai minden alkalommal hasznáhatatlanná válnak, a mellékrakétái pedig sós tengervízbe zuhannak, ami nagyon rosszat tesz, és nagyon drága lenne kihalászni, és felújítani. A megoldás az lenne, hogy a rakéták miután leváltak biztonságosan landoljanak valahol szárazon.<br>
+			Ezért kezdeményezte 2011 Szeptember 29-én a <a href="http://www.spacex.com/" target=_blank>SpaceX</a>, hogy a <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> első fázisa a teljes üzemanyag kimerülés előtt válljon le, és biztonságosan száljon vissza a szárazföldre, vagy egy úszó platformra, hogy később újra felhasználható legyen.<br>
+			<h2>SpaceX -ről röviden</h2>
+			<img src="img/spacexlogo.png" class="floatright" width="300px" style="margin-left: 10px;" alt="SpaceX logo" title="SpaceX logo" />A <a href="http://www.spacex.com/" target=_blank>SpaceX</a> egy magán kézben lévő amerikai űrkutatási vállalat, melynek fő célja az űrrepülés költségeinek csökkentése, és egy marsi kolónia lehetővé tétele. A cég jelenleg gyakran kap megbízásokat műhold fellövésre, illetve a <a href="https://www.nasa.gov/mission_pages/station/main/" target=_blank>nemzetközi űrállomás</a> utánpótlásának szállítására. Az utóbbi időkben sikeres kísérleteket hajtottak végre a <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> első fázisának biztonságos visszajuttatására, és újra felhasználására.
+			<h2>Sikeres kísérletek</h2>
+			A SpaceX számos kísérletet hajtott végre, íme közülük egy:<br>
+			<center style="margin-bottom: 20px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/7pUAydjne5M?rel=0&amp;showinfo=0&start=1645" frameborder="0" allowfullscreen></iframe></center>
+			<table>
+				<tr>
+					<td class="title"><b>Kísérlet ideje</b></td>
+					<td class="title"><b>Sikerült?</b></td>
+					<td class="title"><b>Ha nem sikerült, miért nem?</b></td>
+				</tr>
+				<tr>
+					<td>2016 Január 17, 18:42</td>
+					<td class="failure"></td>
+					<td>Sikeresen leszállt, de hibásan nyílt ki az egyik láb, eldőlt és felrobbant.</td>
+				</tr>
+				<tr>
+					<td>2016 Március 4, 23:35</td>
+					<td class="failure"></td>
+					<td>Nem maradt elég üzemanyag</td>
+				</tr>
+				<tr>
+					<td>2016 Április 8, 20:43</td>
+					<td class="success"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2016 Május 6, 05:21</td>
+					<td class="success"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2016 Június 15, 14:29</td>
+					<td class="failure"></td>
+					<td>Az egyik landoló meghajtó nem adott elég tolóerőt.</td>
+				</tr>
+				<tr>
+					<td>2016 Július 18, 04:45</td>
+					<td class="success"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>2016 Augusztus 14, 05:26</td>
+					<td class="success"></td>
+					<td></td>
+				</tr>
+			</table>
+			<h2>A landolás lépései</h2>
+			<img src="img/droneship.jpeg" class="floatright" height="150px" style="margin-left: 10px;" alt="Úszó platform" title="SpaceX logo" />
+			A <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> kilövése után nem sokkal a föld atmoszférájának elhagyását követően az első fázisa leválik, majd egy 180°os fordulatot vesz, hogy a meghajtóinak tolóerejével lassítsa a sebességét, és így a perapszispontját csökkentve a röppályáját a landolópont felé irányítja.<br>
+			Miután visszalépett az atmoszférába lassító lökésekkel lassul le, és ezután csak légáramlatokkal irányítja magát.<br>
+			Ha elég közel ér a landoló ponthoz egy utolsó égetéssel segíti a pontos landolást az úszó platformon.
+			<h2></h2>
+		</div>
+	</body>
+</html>
