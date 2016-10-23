@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 Ez a weboldal elérhető a http://people.inf.elte.hu/domj1r/w/57dc6de311648/ címen.
 A weboldal hivatalos GitHub oldala: http://github.com/SkorkaBence/SzamalapBeadando
@@ -9,20 +10,22 @@ A weboldal hivatalos GitHub oldala: http://github.com/SkorkaBence/SzamalapBeadan
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="icon" href="img/icon.png">
 		
-		<link rel="stylesheet" type="text/css" href="https://csfcloud.com/csf/ProgramAPI/bin/CSF.css">
+		<!--<link rel="stylesheet" type="text/css" href="https://csfcloud.com/csf/ProgramAPI/bin/CSF.css">
 		<script type="text/javascript" src="https://csfcloud.com/csf/ProgramAPI/bin/jquery.js"></script>
-		<script type="text/javascript" src="https://csfcloud.com/csf/ProgramAPI/bin/CSF.js"></script>
+		<script type="text/javascript" src="https://csfcloud.com/csf/ProgramAPI/bin/CSF.js"></script>-->
+		
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         
         <script type="text/javascript" src="https://skorkabence.web.elte.hu/api/caesar.js" id="caesar-script" c-id="57dc6de311648"></script>
 	</head>
 	<body>
 		<div class="background" id="background"></div>
 		<script>
-			csfapi.setDeveloperKey("qtnh30nerq83lb6w5gr3d3g8wdr3y1eelsmej0j0");
+			/*csfapi.setDeveloperKey("qtnh30nerq83lb6w5gr3d3g8wdr3y1eelsmej0j0");
 			csfapi.media.backgroundVideo({
 				id: "CSFImage_tapes6slamhiyrv", // CSFImage_tapes6slamhiyrv CSFImage_iy7rle4ybecitk3
 				parentElement: document.getElementById("background")
-			});
+			});*/
 			$(function() {
 				$( ".success" ).each(function( index ) {
 					$( this ).html("Sikerült");
@@ -100,6 +103,12 @@ A weboldal hivatalos GitHub oldala: http://github.com/SkorkaBence/SzamalapBeadan
             A <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> első fázisa 9 meghajtóval rendelkezik, melyek közül 8 körben, egy pedig középpen helyezkedik el. Mind a 9 meghajtó fordítható, és ez adja a <a href="http://www.spacex.com/falcon9" target=_blank>Falcon 9</a> irányíthatóságát. A 9 megjató összesen 7,607kN tolóerőt képes biztosítani tengerszinten, és 8,227kN erőt vákumban. Az első fázis 162 másodpercig működik, amely eglég, hogy kiérjen a rakéta az atmoszférából.<br>
             A második fázisban csak egy meghajtó található, amely 934kN tolóerővel 397 másodpercig képes meghajtani a rakéta második fázisát.
             <h2>Források</h2>
+			<a href="https://en.wikipedia.org/wiki/SpaceX" target=_blank>Wikipedia: SpaceX</a><br>
+			<a href="https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches" target=_blank>Wikipedia: List of Falcon 9 and Falcon Heavy launches</a><br>
+			<a href="https://en.wikipedia.org/wiki/Falcon_9" target=_blank>Wikipedia: Falcon 9</a><br>
+			<a href="http://www.spacex.com/falcon9" target=_blank>SpaceX: Falcon 9</a><br>
+			<a href="https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program" target=_blank>Wikipedia: SpaceX reusable launch system development program</a><br>
+			+ saját ismeretek a témában
 		</div>
 	</body>
 </html>
